@@ -26,4 +26,6 @@ Requirements to deal with external sources like model in pkl file, data in json 
 
 # UI Interface
 
-![Ui for project]("https://github.com/vinay-alt/house_price_pred/blob/master/UI.PNG" input form)
+![UI for project](https://github.com/vinay-alt/house_price_pred/blob/master/UI.PNG "Input form")
+
+![UI for project](https://github.com/vinay-alt/house_price_pred/blob/master/UI1.PNG "Result")
