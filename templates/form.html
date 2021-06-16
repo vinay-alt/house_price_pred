@@ -1,0 +1,39 @@
+<div id="form">
+		<div id="form_wrap">
+		<div id="instruction">
+			<h4>Enter the required Information</h4>
+		</div>
+		<form action="{{url_for('predict')}}" method="post">
+			<div id="form_group">
+				<input type="text" name="area" placeholder="Area (in sq ft.)" />
+			</div>
+			<div id="form_group">
+				<select name="bhk">
+					<option value="{{None}}">No. of bedrooms</option>
+					{% for i in range(1,44): %}
+						<option value="{{i}}">{{i}}</option>
+					{% endfor %}
+				</select>
+			</div>
+			<div id="form_group">
+				<select name="bath">
+					<option value="{{None}}">No. of Bathrooms</option>
+					{% for i in range(1,19): %}
+						<option value="{{i}}">{{i}}</option>
+					{% endfor %}
+				</select>
+			</div>
+			<div id="form_group">
+				<select name="loc">
+					<option value="{{None}}">Location</option>
+					{% for i in locations: %}
+						<option value="{{i}}">{{i}}</option>
+					{% endfor %}
+				</select>
+			</div>
+			<div id="form_group">
+				<input id="btn_predict" type="submit" value="Predict" name="something" placeholder="something" />
+			</div>
+		</form>
+	</div>
+	</div>

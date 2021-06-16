@@ -1,0 +1,19 @@
+<div id="header">
+	<div id="header_wrap">
+		<div id="title">DS Projects</div>
+		<div id="name">House Price Prediction</div>
+		<div id="link"><a href="https://github.com/vinay-alt/house_price-pred" target="_blank" title="View Source Code at Github"><i class="fas fa-code"></i></a></div>
+	</div>
+</div>
+<div id="desc">
+	<p>Based on some characteristics like No. of Bedrooms, Bathrooms, Square feet of area and area in which house is located this model predicts the price of house in the banglore city.</p>
+</div>
+<div id="msg">
+	{% with messages = get_flashed_messages() %}
+	{% if messages %}
+		{% for message in messages %}
+			<p>{{message}}</p>
+		{% endfor %}
+	{% endif %}
+{% endwith %}
+</div>
