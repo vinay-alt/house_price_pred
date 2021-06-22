@@ -7,22 +7,30 @@ Project : [Try it out](https://hpprediction.herokuapp.com)
 # Requirements
 
 Requirements to run the .ipynb file
+```
 - Jupiter Notebook
 - pandas
 - numpy
 - scikit-learn
+```
 
 Requirements to create a server for price prediction
+```
 - Pycharm Community Edition
 - flask
+```
 
 Requirements to deal with external sources like model in pkl file, data in json file
+```
 - json
 - pickle
+```
 
 # Languages used
+```
 - python (to prepare a model and to create a server)
 - html, css (to prepare a User interface)
+```
 
 # UI Interface
 
