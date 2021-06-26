@@ -7,9 +7,7 @@ Project : [Try it out](https://hpprediction.herokuapp.com)
 # ML Model
 
 python code in Jupyter Notebook is available at below link for this project
-```
-[Try it out](https://hpprediction.herokuapp.com)
-```
+[house price prediction model](https://github.com/vinay-alt/ml_practice_notebooks/tree/master/linearRegression/House%20Price%20Prediction%20in%20bangalore%20city)
 
 # Requirements
 
