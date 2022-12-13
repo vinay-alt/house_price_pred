@@ -4,10 +4,10 @@
 This is a simple machine learning project which predicts the houses in the banglore city using model built with the logistic Regression Algorithm. This project aims to apply various Python tools to clean the data, to remove some outliers to make it ready to apply machine learning algorithm and prepare a model with it so that it can be used for prediction later.
 
 
-//## Project
+<!--## Project
 
 //[Try it out](https://hpprediction.herokuapp.com/)
-
+-->
   
 ## Tech Stack
 
